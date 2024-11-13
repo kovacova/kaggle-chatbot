@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore data files if they don't need to be versioned
+data/
+
+# Ignore Conda environment files
+.DS_Store
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.env
+
 # C extensions
 *.so
 
